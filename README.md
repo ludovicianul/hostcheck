@@ -23,6 +23,6 @@ The format of the supplied file is one host per line in the following format: ho
 * **connect**: it will actually connect to the hosts and ports supplied in the file
 
 # output
-* **lookup**: for each host the output will look as follows: <supplied_host_row> [{<host_address> | <host_name> | <cannonical_host_name>} ... {<host_address> | <host_name> | <cannonical_host_name>}] - for each IP mapping (if more than one available)
-* **reach**: for each host the output will look as follows: <supplied_host_row> <status> - where <status> is either 'is reachable' or 'is NOT reachable'
-* **connect**: for each host the output will look as follows: <supplied_host_row>:<port>, <status> - where <status> is either 'able to connect!" or "NOT able to connect!"
+* **lookup**: for each host the output will look as follows: **supplied_host_row** [{**host_address** | **host_name** | **cannonical_host_name**} ... {**host_address** | **host_name** | **cannonical_host_name**}] - for each IP mapping (if more than one available)
+* **reach**: for each host the output will look as follows: **supplied_host_row** **status** - where <status> is either 'is reachable' or 'is NOT reachable'
+* **connect**: for each host the output will look as follows: **supplied_host_row**:**port**, **status** - where <status> is either 'able to connect!" or "NOT able to connect!"
