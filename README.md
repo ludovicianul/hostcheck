@@ -18,6 +18,6 @@ The format of the supplied file is one host per line in the following format: ho
 
 # available modes
 
-* **lookup**: will check if the supplied hosts are being solved by the networked configred DNS server(s)
-* **reach**: check if the supplied hosts are reachable. It must run with root/admin priviledges in order simulate a ICMP ping
+* **lookup**: will check if the supplied hosts are being solved by the networked configured DNS server(s)
+* **reach**: check if the supplied hosts are reachable. It must run with root/admin priviledges in order to simulate a ICMP ping
 * **connect**: it will actually connect to the hosts and ports supplied in the file
